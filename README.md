@@ -9,8 +9,6 @@ Chip In is an cross-platform mobile app that aims to bring people closer togethe
 
 ### Technologies used
 
-​
-
 #### Frontend
 
 React Native
