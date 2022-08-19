@@ -1,8 +1,6 @@
 # ChipIn
 
 Chip In is an cross-platform mobile app that aims to bring people closer together by connecting volunteers in the community with those that need assistance. Built using React Native, Axios, Cloud Firestore, and written in Javascript, HTML and CSS, this app is the culminating work of our time on the Northcoders bootcamp.
-​
-​
 
 ## Technologies used
 
