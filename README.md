@@ -1,34 +1,32 @@
 # ChipIn
 
-## Project brief
-​
-ChipIn is an app that aims to bring communities closer together by allowing users to volunteer their free time, and request help from others.
-​
-​
-### User Stories
-​
-Add your user Stories below:
-​
-### MVP
-- As a user I will be able to set up a secure account on the platform
-- As a user I want to have my own profile page with a bio listing my skills and qualifications
-- As a user I should have the ability to post errands
-- As a user I can view all available errands on a map
-- As a user I can view an info page for a single errand
-- As a user I should be able to update the info on an errand I have posted
-- As a user I will be able to delete an errand I have posted
-- As a user I can mark an errand I posted as complete
-- As a user I want to be able to respond to an errand by volunteering to help
-- As a user I will be able to update my bio to change my skills and qualifications
-- As a user I can have the flexibility to determine the distance I am willing to travel
-- As a user I will be notified in the app when someone volunteers themselves for my errand
+## App overview
 
-### Baubles
-- As a user I can give awards to people who volunteered to help after the job is complete
-- As a user I want to have a live chat between volunteers and errand posters
-- As a user I will have access to a social feed for users who fall inside my communitiy radius
-- As a user I will receive a push notification when there is a new errand posted in my area
-- As a user I will receive a push notification when someone volunteers to help me with my errand
 ​
-### RATS
-- Mapping for avaliable errands
+Chip In is an cross-platform mobile app that aims to bring people closer together by connecting volunteers in the community with those that need assistance. Built using React Native, Axios, Cloud Firestore, and written in Javascript, HTML and CSS, this app is the culminating work of our time on the Northcoders bootcamp.
+​
+​
+
+### Technologies used
+
+​
+
+#### Frontend
+
+React Native
+React Native Maps
+
+#### Backend
+
+Cloud Firestore
+Axios
+
+### How to use
+
+As the app is not yet hosted on either the Google Store or Apple Store, the only way to use it is to fork and clone these files down to your own repo. Open the code in the code editor of your choice and run: `npm install`
+
+to make sure all necessary modules are installed. Once complete, run: `npm start`.
+
+This will give you the option to run the app. **Please select 'Android' when prompted**. There is currently no option to run in ios emulation mode and web mode does not work after the inclusion of React Native Maps to the app.
+
+If you download the 'Expo Go' app from the app store of your choice, you will then be able to run the app in development mode on your smartphone. Simply run `expo start` instead of `npm start`.
